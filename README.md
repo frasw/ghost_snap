@@ -4,7 +4,7 @@
 
 Il progetto esplora il concetto di **"Invisible Drag"** e **"Delayed Snap"** per ridurre il carico cognitivo visivo durante le operazioni di editing grafico. A differenza degli editor tradizionali, dove le guide di allineamento appaiono immediatamente creando confusione ("clutter"), in GhostSnap i suggerimenti di allineamento appaiono solo quando l'utente manifesta un'intenzione precisa fermando il cursore.
 
-## 🚀 Caratteristiche Principali
+## Caratteristiche Principali
 
 ### 1. Invisible Drag (Trascinamento Invisibile)
 Quando l'utente inizia a trascinare un oggetto:
@@ -26,7 +26,7 @@ Se il Fantasma è visibile quando l'utente rilascia il mouse, l'oggetto reale vi
 
 ---
 
-## 🛠️ Controlli e Interfaccia
+## Controlli e Interfaccia
 
 * **Pulsanti Oggetti:** Permettono di aggiungere Rettangoli, Cerchi, Immagini e Testo al canvas.
 * **Clear:** Pulisce il canvas (azione annullabile).
@@ -38,7 +38,7 @@ Se il Fantasma è visibile quando l'utente rilascia il mouse, l'oggetto reale vi
 
 ---
 
-## 💻 Istruzioni di Installazione e Avvio
+## Istruzioni di Installazione e Avvio
 
 Prerequisiti: Assicurarsi di avere **Node.js** e **npm** installati.
 
@@ -46,7 +46,7 @@ Per avviare il programma seguire questi passaggi:
 
 1.  Aprire il terminale (CMD o PowerShell) ed entrare nel percorso del progetto:
     ```bash
-    cd C:\Users\ASUS\Desktop\Cartella\File\Università\Magistrale\UIT\Progetto\CloneGit\ghost_snap
+    cd C:\ghost_snap
     ```
     *(Nota: Assicurarsi che il percorso corrisponda alla posizione effettiva della cartella sul proprio computer)*
 
