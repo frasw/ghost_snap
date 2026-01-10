@@ -331,7 +331,7 @@ const GhostSnapApp = () => {
 
   return (
     <div style={styles.container}>
-      <h1>GhostSnap <span style={{fontSize:'0.6em', color:'#777'}}>(Final)</span></h1>
+      <h1>GhostSnap <span style={{fontSize:'0.6em', color:'#777'}}></span></h1>
       <p>1. Trascina. 2. Fermati {timeHolder/1000}s. 3. Rilascia.</p>
       
       <div style={styles.controls}>
@@ -366,7 +366,7 @@ const GhostSnapApp = () => {
                 onChange={(e) => setRestrictedMode(e.target.checked)}
                 style={{width: '18px', height: '18px', marginRight: '8px', cursor: 'pointer'}}
             />
-            Vincolato al Centro
+            Vincolato alla Griglia
         </label>
       </div>
 
