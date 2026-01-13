@@ -46,7 +46,7 @@ Per avviare il programma seguire questi passaggi:
 
 1.  Aprire il terminale (CMD o PowerShell) ed entrare nel percorso del progetto:
     ```bash
-    cd C:\ghost_snap
+    cd C:\Users\ASUS\Desktop\Cartella\File\Università\Magistrale\UIT\Progetto\CloneGit\ghost_snap
     ```
     *(Nota: Assicurarsi che il percorso corrisponda alla posizione effettiva della cartella sul proprio computer)*
 
