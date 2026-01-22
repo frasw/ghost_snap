@@ -69,12 +69,6 @@ const GhostSnapApp = () => {
         const obj = e.target;
         activeObject.current = obj;
 
-        // Temporarily disables editing for text objects to prevent conflicts during drag
-        if (obj.type === 'i-text') {
-            obj.exitEditing(); 
-            obj.set({ lockEditing: true, editable: false });
-        }
-
         // Generates the static placeholder clone
         obj.clone().then((cloned) => {
             // Verifies the interaction is still active
@@ -211,11 +205,6 @@ const GhostSnapApp = () => {
                 hasBorders: true
             });
             
-            // Restores text editing capabilities
-            if (obj.type === 'i-text') {
-                obj.set({ lockEditing: false, editable: true });
-            }
-
             obj.setCoords();
         }
 
